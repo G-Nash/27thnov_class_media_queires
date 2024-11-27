@@ -32,6 +32,8 @@ body{
     max-width: 200px;
     color: black;
     border: solid white;
+    /* height: 400px; */
+    /* overflow-y: auto; */
 }
 
 .pic_text{
@@ -40,6 +42,12 @@ body{
     color: white;
     border: solid black;
     padding: 5px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.pic_text::-webkit-scrollbar{
+    display: none;
 }
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
