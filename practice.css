@@ -11,6 +11,37 @@ body{
     align-items: center;
 }
 
+.div_selena1{
+    background-color: aqua;
+    text-align: center;
+}
+
+.div_selena2{
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.div_selena3{
+    background-color: lightgreen;
+}
+
+.div_selena1, .div_selena2, .div_selena3{
+    text-align: center;
+    margin-top: 20px;
+    max-height: max-content;
+    max-width: 200px;
+    color: black;
+    border: solid white;
+}
+
+.pic_text{
+    text-align: justify;
+    background-color: black;
+    color: white;
+    border: solid black;
+    padding: 5px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 425px) {
     #selena2, #selena3{
         display: none;
@@ -32,12 +63,12 @@ body{
 @media screen and (orientation:landscape){
     .orientation{
         border: solid white;
-        margin-top: 50px;
+        margin-top: 5px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 10px;
+        padding: 5px;
         column-gap: 10px;
     }
 
@@ -69,35 +100,4 @@ body{
         /* margin-top: 10px; */
         width: 200px;
     }
-}
-
-.div_selena1{
-    background-color: aqua;
-    text-align: center;
-}
-
-.div_selena2{
-    background-color: lightcoral;
-    text-align: center;
-}
-
-.div_selena3{
-    background-color: lightgreen;
-}
-
-.div_selena1, .div_selena2, .div_selena3{
-    text-align: center;
-    margin-top: 20px;
-    max-height: max-content;
-    max-width: 250px;
-    color: black;
-    border: solid white;
-}
-
-.pic_text{
-    text-align: justify;
-    background-color: black;
-    color: white;
-    border: solid black;
-    padding: 5px;
 }
