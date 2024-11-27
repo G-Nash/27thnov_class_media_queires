@@ -40,6 +40,10 @@ body{
         padding: 10px;
         column-gap: 10px;
     }
+
+    #selena11, #selena12, #selena13{
+        max-height: 200px;
+    }
 }
 
 @media screen and (orientation:portrait){
@@ -62,7 +66,7 @@ body{
     #selena11, #selena12, #selena13{
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10px;
+        /* margin-top: 10px; */
         width: 200px;
     }
 }
@@ -87,5 +91,12 @@ body{
     max-height: max-content;
     max-width: 250px;
     color: black;
-    border: solid red;
+    border: solid white;
+}
+
+.pic_text{
+    text-align: justify;
+    background-color: black;
+    color: white;
+    border: solid black;
 }
