@@ -48,7 +48,7 @@ body{
 
 @media screen and (orientation:portrait){
     body{
-        background-color: gray;
+        background-color: darkgray;
     }
 
     .orientation{
@@ -99,4 +99,5 @@ body{
     background-color: black;
     color: white;
     border: solid black;
+    padding: 5px;
 }
