@@ -85,5 +85,7 @@ body{
     text-align: center;
     margin-top: 20px;
     max-height: max-content;
-    max-width: max-content;
+    max-width: 250px;
+    color: black;
+    border: solid red;
 }
