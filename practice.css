@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 425px) {
+    #selena2, #selena3{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 760px) {
+    #selena1, #selena3{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 761px) {
+    #selena1, #selena2{
+        display: none;
+    }
+}
